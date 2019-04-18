@@ -7,7 +7,6 @@ Rascunho de Aulas
 
  # AULA 01
 
-![alt text] (https://www.caelum.com.br/apostila-java-web/imagens/jdbc/driver-manager.png)
 ![alt text](https://www.caelum.com.br/apostila-java-web/imagens/jdbc/driver-manager.png "TESTE")
                
 ## ECLIPSE
