@@ -5,28 +5,26 @@
 
 Rascunho de Aulas
 
-AULA 01
+ # AULA 01
 
-* https://www.caelum.com.br/apostila-java-web/imagens/jdbc/driver-manager.png*
- 
-                    
-   #MARKDOWN                 
-##2 ECLIPSE
-                   
-1. CTRL+SHIFT+F = FORMATA O CODIGO
-2. CTRL+3 = ABRE BARRA ACESSO RAPIDO
-3. CRLT+SHIFT+O = OBTEM DEPENDENCIAS
+![alt text] (https://www.caelum.com.br/apostila-java-web/imagens/jdbc/driver-manager.png)
+               
+## ECLIPSE
+                   * CTRL+SHIFT+F = FORMATA O CODIGO
+                   * CTRL+3 = ABRE BARRA ACESSO RAPIDO
+                   * CRLT+SHIFT+O = OBTEM DEPENDENCIAS
 
 
 
-SERVLET (web) - JSP, JSTL e JSF
-- Container (Tomcat, Widyfly)
+    * SERVLET (WEB) - JSP, JSTL e JSF
+    * CONTAINER (Tomcat, Widyfly)
                     
                     
-                    
-SERVIDORES DE APLICAÇÃO (JSP, JSTL, JSF, EJB, JAX-B, JAX-WS(SOAP), JMS e JPA)
-- Glassfish, Jboss e Websphere
+ > SERVIDORES DE APLICAÇÃO (JSP, JSTL, JSF, EJB, JAX-B, JAX-WS(SOAP), JMS e JPA
+ > Glassfish, Jboss e Websphere
 
+
+ # AULA 02
 
 
 
