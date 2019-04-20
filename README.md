@@ -27,4 +27,29 @@ Rascunho de Aulas
  # AULA 02
 
 
+                   * CTRL + N = NOVO PROJETO
+                   
+                   
+![alt text](https://www.caelum.com.br/apostila-java-web/imagens/novo-projeto/estrutura-pastas.png "TESTE")
+
+SRC         ---> CODIGO JAVA
+JRE         ---> JDK 1.6
+APACHE      ---> SERVIDOR RUNTIME
+BUILD       ---> COMPILAÇÃO
+WEB CONTENT ---> RAIZ
+   META-INF ---> DOCUMENTAÇÃO
+           "manifest.mf" 
+   WEB-INF ---> SEM ACESSO WEB
+           LIB     ---> BIBLIOTECA DO PROJETO
+           "web.xml" ---> CONFIGURAÇÕES PARA O SERVIDOR
+
+
+Servlets - REQUEST/RESPONSE
+
+![alt text](https://www.caelum.com.br/apostila-java-web/imagens/servlets/http.png "TESTE")
+
+
+
+
+
 
