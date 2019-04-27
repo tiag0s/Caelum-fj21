@@ -49,6 +49,30 @@ Servlets - REQUEST/RESPONSE
 ![alt text](https://www.caelum.com.br/apostila-java-web/imagens/servlets/http.png "TESTE")
 
 
+# AULA 03
+
+JSP = HTML (EXECUTADO SERVSIDE JAVA/HTML SEM ";")
+
+SYSO = CONSOLE
+OUT.PRINTLN = SAIDA
+
+
+MVC
+
+OPERA --1-- CONTROLLER ---2--MODEL--3--CONTROLLER--4--VIEW--5--OPERA 
+
+JSP - Java com HTML
+
+EL: Expression language
+Para remover um pouco do código Java que fica na página JSP, a Sun desenvolveu uma linguagem chamada Expression Language que é interpretada pelo servlet container.
+
+
+TAGLIBS
+
+
+JSP(COMPLEXA ESCRITA/LEITURA - JSTL(SIMPLES ESCRITA/LEITURA)
+
+
 
 
 
