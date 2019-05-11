@@ -12,6 +12,10 @@ public class ContatoDao {
 
 	private Connection connection;
 
+	public ContatoDao(Connection connection) {
+		this.connection = connection;
+	}
+
 	public ContatoDao() throws ClassNotFoundException {
 		this.connection = new ConnectionFactory().getConnection();
 	}
@@ -35,29 +39,28 @@ public class ContatoDao {
 			throw new RuntimeException(e);
 		}
 	}
-	
-	
-	public List<Contato> getLista (){
+
+	public List<Contato> getLista() {
 		try {
 			List<Contato> contatos = new ArrayList<Contato>();
-			PreparedStatement stmt= this.connection.prepareStatement("select * from contatos");
+			PreparedStatement stmt = this.connection.prepareStatement("select * from contatos");
 			ResultSet rs = stmt.executeQuery();
-			
+
 			while (rs.next()) {
 				Contato contato = new Contato();
 				contato.setId(rs.getLong("id"));
 				contato.setNome(rs.getString("nome"));
 				contato.setEmail(rs.getString("email"));
 				contato.setEndereco(rs.getString("endereco"));
-				
+
 				Calendar data = Calendar.getInstance();
 				data.setTime(rs.getDate("dataNascimento"));
 				contato.setDataNascimento(data);
-				
+
 				contatos.add(contato);
-				
+
 			}
-			
+
 			rs.close();
 			stmt.close();
 			return contatos;
@@ -65,43 +68,18 @@ public class ContatoDao {
 			throw new RuntimeException(e);
 		}
 	}
-				
-			
+
 	public void remove(Contato contato) {
 		try {
 			PreparedStatement stmt = connection.prepareStatement("delete from contatos where di=?");
-			
+
 			stmt.setLong(1, contato.getId());
 			stmt.execute();
 			stmt.close();
-		}catch (SQLException e) {
+		} catch (SQLException e) {
 			throw new RuntimeException(e);
-			}
-		
+		}
+
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-

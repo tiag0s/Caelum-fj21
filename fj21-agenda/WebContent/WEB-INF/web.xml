@@ -20,7 +20,6 @@
         <location>/404.html</location>
     </error-page>
     
-  
   	<servlet>
 		<servlet-name>servletOiMundo</servlet-name>
 		<servlet-class>
@@ -31,7 +30,6 @@
 	<servlet-mapping>
 		<servlet-name>servletOiMundo</servlet-name>
 		<url-pattern>/oi</url-pattern>
-			
 	</servlet-mapping>
 	
 
